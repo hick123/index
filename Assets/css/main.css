@@ -1,0 +1,256 @@
+/* header */
+/* html, 
+body {
+    height: 100%;
+} */
+
+nav {
+    background-color: #550C18
+        /* height: 100%; */
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(#c0a8a893 100%, #c0a8a89a 100%), url("../img/thumb-1920-736508.jpg");
+
+    /* background-color: rgb(226, 109, 242); */
+
+    /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+    /* background-image: url('../img/thumb-1920-736508.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  overflow: hidden;
+}
+.masthead h1{
+  font-size: 88px !important;
+  color: rgb(255, 255, 255);
+}
+.masthead p{
+  font-size: 42px !important;
+  color: rgb(255, 255, 255);
+}
+@media (max-width:842px) {
+  .masthead h1{
+    font-size: 50px !important;
+    color: rgb(255, 255, 255);
+  }
+  .masthead p{
+    font-size: 32px !important;
+    color: rgb(255, 255, 255);
+  }
+}
+.masthead h1{
+  font-size: 38px;;
+}
+
+
+.masthead span::before {
+    content: 'Full stack developer';
+    animation: animate infinite 8s;
+}
+
+@keyframes animate {
+    0% {
+        content: 'UI Designer';
+    }
+
+    33% {
+        content: 'Freelancer';
+    }
+
+    66% {
+        content: 'Entrepreneur';
+
+    }
+
+    100% {
+        content: 'Photographer';
+
+    }
+
+    /* 100% {} */
+}
+.flex-container {
+    display: flex;
+    background-color: #073451;
+    padding-top: 1rem;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+/* -------------resume---------------------- */
+.resume {
+    height: 100vh;
+    min-height: 500px;
+    padding-top: 55px;
+    display: flex;
+
+    /* padding-top: 30px; */
+    /* height: 100%;
+    background-color: #ffffff */
+}
+
+.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline h3 {
+    text-align: center;
+}
+
+.timeline::before {
+    content: '';
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+.timeline li {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+.timeline li h5 {
+    background-color: black;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.timeline li::before {
+    content: '';
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #000;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+.main {
+    outline-offset: inherit;
+
+}
+
+.slide-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* skills */
+@keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-webkit-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-moz-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+  @-o-keyframes load{
+    from {
+      width: 0%
+    }
+  }
+ 
+
+
+
+
+/* 
+  .skill-bars h3 {
+    font-weight: normal;
+    margin-bottom: 16px;
+  }
+  .skills-ul {
+    overflow: hidden;
+  }
+  .skills-ul span {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .skills-ul li {
+    margin-bottom: 16px;
+  }
+  .skills-ul li:last-child {
+    margin-bottom: 0px;
+  }
+  .skill-bar-holder {
+    height: 12px;
+    width: 100%;
+    background: rgba(1, 162, 166, 0.1);
+    padding: 0px;
+    position: relative;
+  } */
+  .skill-capacity {
+    height: 12px;
+    background: #01a2a6;
+    padding: 0px !important;
+    left: 0px;
+    position: absolute;
+  }
+  .progress{
+    margin-top: 5px;
+    height: 25px;
+  }
+  #about{
+    background-color: #f4f4f4;
+  }
+  #about li{
+    list-style: none;
+  }
+  /* .skills-left {
+    text-align: right;
+  }
+  .skills-left .skill-bar-holder {
+    background: rgba(47, 41, 51, 0.1);
+  }
+  .skills-left .skill-capacity {
+    background: #2f2933;
+    left: auto;
+    right: 0px;
+  }
+  @media screen and (max-width: 990px) {
+    .skills-left {
+      margin-bottom: 32px;
+      text-align: left;
+    }
+    .skills-left .skill-capacity {
+      right: auto;
+      left: 3px;
+    }
+  } */
