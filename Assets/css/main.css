@@ -1,23 +1,12 @@
-/* header */
-/* html, 
-body {
-    height: 100%;
-} */
 
 nav {
   background-color: #251e3e
-    /* height: 100%; */
 }
 
 .masthead {
   height: 100vh;
   min-height: 500px;
   background: linear-gradient(#251e3e71 100%, #251e3e83 100%), url("../img/thumb-1920-736508.jpg");
-
-  /* background-color: rgb(226, 109, 242); */
-
-  /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
-  /* background-image: url('../img/thumb-1920-736508.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -196,25 +185,3 @@ section {
 #about p {
   text-align: center;
 }
-
-/* .skills-left {
-    text-align: right;
-  }
-  .skills-left .skill-bar-holder {
-    background: rgba(47, 41, 51, 0.1);
-  }
-  .skills-left .skill-capacity {
-    background: #2f2933;
-    left: auto;
-    right: 0px;
-  }
-  @media screen and (max-width: 990px) {
-    .skills-left {
-      margin-bottom: 32px;
-      text-align: left;
-    }
-    .skills-left .skill-capacity {
-      right: auto;
-      left: 3px;
-    }
-  } */
